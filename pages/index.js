@@ -20,7 +20,7 @@ export default function IndexPage() {
   }
   useEffect(() => {
     async function getJobs() {
-      let response = await fetch(`${process.env.SERVER_URL}/api/job`, {
+      let response = await fetch('api/job', {
         method: 'POST',
         body: JSON.stringify(payload),
         headers: {
@@ -33,7 +33,7 @@ export default function IndexPage() {
       setJobs({data: data, type: type})
     }
     async function getFilters() {
-      const res = await fetch(`${process.env.SERVER_URL}/api/filter`)
+      const res = await fetch('api/filter')
       let data = await res.json()
       setFilters(data)
     }
