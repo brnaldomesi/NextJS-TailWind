@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.m-jobinfo-btn-container {
+  @apply w-full;
+  @apply flex;
+  @apply items-center;
+  @apply flex-col;
+  @apply justify-center;
+}
+
+.m-jobinfo-btn-wrapper {
+  @apply w-full;
+  @apply flex;
+  @apply flex-wrap;
+  @apply justify-end;
+}
+
+.m-jobinfo-detail-btn {
+  @apply bg-blue-400;
+  @apply text-white;
+  @apply px-4;
+  @apply py-2;
+  @apply m-1;
+  @apply rounded-lg;
+}
+
+.m-jobinfo-save-btn {
+  @apply bg-transparent;
+  @apply border-2;
+  @apply border-blue-400;
+  @apply px-4;
+  @apply py-2;
+  @apply m-1;
+  @apply rounded-lg;
+}

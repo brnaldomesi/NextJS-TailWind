@@ -1,0 +1,108 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.navbar {
+  @apply bg-white;
+  @apply justify-items-center;
+  @apply grid;
+}
+.nav_avatar {
+  @apply rounded-full;
+  width: 50px;
+  height: 50px;
+
+}
+.nav_btn_create_job {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.m-header-container {
+  @apply flex;
+  @apply items-center;
+  @apply shadow;
+  @apply text-gray-700;
+  @apply fixed;
+  @apply bg-white;
+  @apply justify-center;
+  @apply w-full;
+  @apply h-16;
+  @apply z-10;
+  @apply px-6;
+  @apply tracking-tight;
+  font-family: Roberto;
+}
+
+.m-header-gap {
+  @apply flex;
+  @apply justify-between;
+  @apply items-center;
+}
+
+.m-header-menu {
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+}
+
+.m-header-create-job-btn {
+  @apply border;
+  @apply border-blue-500;
+  @apply text-blue-500;
+  @apply px-2;
+  @apply py-1;
+  @apply flex;
+  @apply w-full;
+  @apply rounded;
+  @apply items-center;
+  @apply justify-center;
+}
+
+.m-header-create-job-btn_ {
+  @apply hidden;
+  @apply text-blue-500;
+  @apply border;
+  @apply border-blue-500;
+  @apply rounded-md;
+  @apply px-2;
+  @apply py-1;
+}
+
+.m-header-avatar-container {
+  @apply inline-block;
+  @apply relative;
+}
+
+.m-header-avatar {
+  @apply bg-blue-500;
+  @apply flex;
+  @apply items-center;
+  @apply h-10;
+  @apply w-10;
+  @apply justify-center;
+  @apply text-white;
+  @apply text-sm;
+  @apply rounded-full;
+}
+
+.m-header-avatar-badge {
+  @apply absolute;
+  @apply top-0;
+  @apply right-0;
+  @apply h-4;
+  @apply w-4;
+  @apply rounded-full;
+  @apply bg-red-500;
+  @apply text-xs;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply text-white;
+}
+
+.m-header-right {
+  @apply flex;
+  @apply items-center;
+  @apply mx-2;
+}

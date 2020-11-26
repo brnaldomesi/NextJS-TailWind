@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.m-joblist-content {
+  @apply bg-white;
+  @apply py-2;
+  @apply px-2;
+  @apply min-h-screen;
+  @apply h-full;
+}
+
+.m-joblist-sort {
+  @apply flex;
+  @apply px-2;
+  @apply py-8;
+  @apply justify-between;
+}

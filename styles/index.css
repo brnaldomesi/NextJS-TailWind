@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roberto&family=Poppins&&display=swap');
+
+@import './nav.css';
+@import './joblist.css';
+@import './jobinfo.css';
+@import './joblistitem.css';
+@import './footer.css';
+@import './menu.css';
+@import './modal.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue {
+  @apply bg-blue-500;
+  @apply text-white;
+  @apply font-bold;
+  @apply py-2;
+  @apply px-4;
+  @apply rounded;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: Poppins;
+}
+
+.m-content {
+  @apply flex;
+  @apply justify-center;
+}
+
+.m-container {
+  @apply pt-20;
+  @apply flex;
+  @apply flex-col;
+  @apply min-h-screen;
+  @apply h-full;
+}
+
+.m-searchbar-icon {
+  @apply absolute;
+  @apply h-10;
+  @apply mt-1;
+  @apply flex;
+  @apply items-center;
+  @apply pl-10;
+}
+
+.m-searchbar-input {
+  @apply block;
+  @apply w-full;
+  @apply text-gray-700;
+  @apply pl-16;
+  @apply pr-4;
+  @apply py-3;
+}
+
+.m-filter-container {
+  @apply hidden;
+  @apply flex-col;
+  @apply mx-2;
+  @apply my-4;
+}
+
+.m-joblist-container {
+  @apply flex;
+  @apply flex-col;
+  @apply w-full;
+  @apply min-h-screen;
+  @apply mx-2;
+  @apply my-4;
+}
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+{
+  "name": "Clipboard-Health-Demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "prod_start": "NODE_ENV=production node server.js",
+    "export": "next export"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "husky": "^4.3.0",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.7.4"
+  },
+  "license": "MIT"
+}

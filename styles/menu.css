@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.m-menu-container {
+  @apply relative;
+  @apply inline-block;
+  @apply text-left;
+}
+
+.m-menu-btn {
+  @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply p-2;
+  @apply rounded-md;
+  @apply text-gray-500;
+}
+
+.m-menu-options {
+  @apply origin-top-left;
+  @apply absolute;
+  @apply left-0;
+  @apply mt-2;
+  @apply w-56;
+  @apply rounded-md;
+  @apply shadow-lg;
+  @apply h-64;
+  @apply overflow-y-auto;
+}

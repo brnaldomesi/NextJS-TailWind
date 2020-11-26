@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.m-footer-container {
+  @apply bg-white;
+  @apply flex;
+  @apply items-start;
+  @apply px-6;
+  @apply py-6;
+  @apply mt-6;
+  @apply flex-wrap;
+}
+
+.m-footer-section {
+  @apply w-full;
+  @apply flex-col;
+  @apply mb-2;
+}
+
